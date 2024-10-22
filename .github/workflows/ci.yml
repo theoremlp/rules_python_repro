@@ -7,7 +7,7 @@ on:
 jobs:
   ci:
     name: CI
-    runs-on: gh-linux-arm64-16cpu
+    runs-on: gh-linux-arm64-2cpu
     permissions:
       id-token: write
       contents: read
